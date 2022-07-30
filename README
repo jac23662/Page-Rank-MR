@@ -1,0 +1,11 @@
+This program is meant to be run on a cluster with hadoop-3.3.1 and Spark-3.1 installed.
+
+This run script takes in two parameters. 
+1: The input file 
+2: The output file
+
+Usage:
+./run.sh /input/file/path /output/file/path
+
+Purpose:
+Performs Page Rank Algorithm using Sparks map and reduce functions
